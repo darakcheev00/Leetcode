@@ -37,7 +37,8 @@ going forwards and backwards for each index. The max of these numbers will
 be the max subarray prod.
 A zero will turn any subarray prod to 0 so if there are zeros in the array 
 then split array into subarrays based on the zeros (accumulate nums into 
-temp array until hit a 0). Then just process the temp array as described before.
+temp array until hit a 0, then reset temp). Then just process the temp array 
+as described before.
 Meanwhile update the max prod seen.
 Return either the max prod seen or 0 if the array contained zeros because 
 if the max prod is a negative then any temp array could absorb the zero and 
