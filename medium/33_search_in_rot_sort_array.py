@@ -28,7 +28,7 @@ class Solution:
         return -1
         
 """
-Time: O(n)
+Time: O(logn)
 Space: O(1)
 
 Idea:
