@@ -51,4 +51,8 @@ class Solution:
 """
 Time: O(n*m)
 Space: O(n)
+
+Idea:
+create a cache that holds calculated results for visited nodes. 
+This way the value can just be searched up and not recalculated.
 """
