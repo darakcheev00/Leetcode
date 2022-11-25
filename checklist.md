@@ -1,15 +1,15 @@
 Array
 ----------------------------------------------------------
 - [x] Two Sum
-- [ ] Best Time to Buy and Sell Stock
-- [ ] Contains Duplicate
-- [ ] Product of Array Except Self
-- [ ] Maximum Subarray
-- [ ] Maximum Product Subarray
-- [ ] Find Minimum in Rotated Sorted Array
-- [ ] Search in Rotated Sorted Array
-- [ ] 3 Sum
-- [ ] Container With Most Water
+- [x] Best Time to Buy and Sell Stock
+- [x] Contains Duplicate
+- [x] Product of Array Except Self
+- [x] Maximum Subarray
+- [x] Maximum Product Subarray
+- [x] Find Minimum in Rotated Sorted Array
+- [x] Search in Rotated Sorted Array
+- [x] 3 Sum
+- [x] Container With Most Water
 
 Binary
 ----------------------------------------------------------
@@ -21,8 +21,8 @@ Binary
 
 Dynamic Programming
 ----------------------------------------------------------
-- [ ] Climbing Stairs
-- [ ] Coin Change
+- [x] Climbing Stairs
+- [x] Coin Change
 - [ ] Longest Increasing Subsequence
 - [ ] Longest Common Subsequence
 - [ ] Word Break Problem
@@ -48,7 +48,7 @@ Interval
 ----------------------------------------------------------
 - [ ] Insert Interval
 - [ ] Merge Intervals
-- [ ] Non-overlapping Intervals
+- [x] Non-overlapping Intervals
 - [ ] Meeting Rooms (Leetcode Premium)
 - [ ] Meeting Rooms II (Leetcode Premium)
 
