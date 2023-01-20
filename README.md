@@ -1,4 +1,8 @@
 # Leetcode Blind 75
+
+Link to list:
+https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions
+
 Array
 ----------------------------------------------------------
 - [x] Two Sum
