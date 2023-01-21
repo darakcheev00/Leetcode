@@ -43,7 +43,7 @@ Graph
 - [x] Clone Graph
 - [x] Course Schedule
 - [x] Pacific Atlantic Water Flow
-- [ ] Number of Islands
+- [x] Number of Islands
 - [ ] Longest Consecutive Sequence
 - [ ] Alien Dictionary (Leetcode Premium)
 - [ ] Graph Valid Tree (Leetcode Premium)
