@@ -38,4 +38,3 @@ Solution:
 First copy the nodes and save references to them in a hashmap: key is id of original node, value is a pointer to the new node. Then loop through the list again and link new linked list nodes based on the original linked list.
 Note: when relinking check if curr.next or curr.random is null because id of an object is used as the key in the hashmap but null has no id.
 """
-        
