@@ -44,7 +44,7 @@ Graph
 - [x] Course Schedule
 - [x] Pacific Atlantic Water Flow
 - [x] Number of Islands
-- [ ] Longest Consecutive Sequence
+- [x] Longest Consecutive Sequence
 - [ ] Alien Dictionary (Leetcode Premium)
 - [ ] Graph Valid Tree (Leetcode Premium)
 - [ ] Number of Connected Components in an Undirected Graph (Leetcode Premium)
