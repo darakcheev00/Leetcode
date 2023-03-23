@@ -54,8 +54,8 @@ Interval
 - [x] Insert Interval
 - [x] Merge Intervals
 - [x] Non-overlapping Intervals
-- [ ] Meeting Rooms (Leetcode Premium)
-- [ ] Meeting Rooms II (Leetcode Premium)
+- [x] Meeting Rooms (Leetcode Premium)
+- [x] Meeting Rooms II (Leetcode Premium)
 
 Linked List
 ----------------------------------------------------------
