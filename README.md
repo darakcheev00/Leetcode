@@ -51,8 +51,8 @@ Graph
 
 Interval
 ----------------------------------------------------------
-- [ ] Insert Interval
-- [ ] Merge Intervals
+- [x] Insert Interval
+- [x] Merge Intervals
 - [x] Non-overlapping Intervals
 - [ ] Meeting Rooms (Leetcode Premium)
 - [ ] Meeting Rooms II (Leetcode Premium)
