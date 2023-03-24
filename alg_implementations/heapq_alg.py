@@ -1,14 +1,29 @@
-
-class MaxHeapq:
+class Heap:
     def __init__(self):
-        self.class_name = "my maxheapq implementation"
-    
+        self.class_name = "my heap implementation"
+
     def printHeap(self, heap):
         for i in range(len(heap)):
             left = None if 2*i+1 >= len(heap) else heap[2*i+1]
             right = None if 2*i+2 >= len(heap) else heap[2*i+2]
             print(f"{heap[i]}: ({left},{right})")    
 
+    def heappop(self, array):
+        val = array.pop(0)
+        self.heapify(array)
+        return val
+    
+    def heappush(self,array,val):
+        array.append(val)
+        self.heapify(array)
+
+    def heappushpop(self, array, val):
+        res = array.pop(0)
+        array.append(val)
+        self.heapify(array)
+        return res
+    
+class MaxHeapq(Heap):    
     def heapify(self, array):
         n = len(array)
         last_non_leaf = (n-2)//2
@@ -36,33 +51,7 @@ class MaxHeapq:
 
                 curr = largest_child
 
-
-    def heappop(self, array):
-        val = array.pop(0)
-        self.heapify(array)
-        return val
-    
-    def heappush(self,array,val):
-        array.append(val)
-        self.heapify(array)
-
-    def heappushpop(self, array, val):
-        res = array.pop(0)
-        array.append(val)
-        self.heapify(array)
-        return res
-
-
-class MinHeapq:
-    def __init__(self):
-        self.class_name = "my minheapq implementation"
-    
-    def printHeap(self, heap):
-        for i in range(len(heap)):
-            left = None if 2*i+1 >= len(heap) else heap[2*i+1]
-            right = None if 2*i+2 >= len(heap) else heap[2*i+2]
-            print(f"{heap[i]}: ({left},{right})")    
-
+class MinHeapq(Heap):
     def heapify(self, array):
         n = len(array)
         last_non_leaf = (n-2)//2
@@ -87,25 +76,10 @@ class MinHeapq:
                 temp = array[curr]
                 array[curr] = array[smallest_child]
                 array[smallest_child] = temp
-
                 curr = smallest_child
 
 
-    def heappop(self, array):
-        val = array.pop(0)
-        self.heapify(array)
-        return val
-    
-    def heappush(self,array,val):
-        array.append(val)
-        self.heapify(array)
-
-    def heappushpop(self, array, val):
-        res = array.pop(0)
-        array.append(val)
-        self.heapify(array)
-        return res
-
+print("max heap")
 test = [1,2,3,4,5]
 hq_max = MaxHeapq()
 
@@ -118,7 +92,7 @@ print(test)
 print(hq_max.heappushpop(test,7))
 print(test)
 
-
+print("\nmin heap")
 test = [1,2,3,4,5]
 hq_min = MinHeapq()
 
