@@ -105,6 +105,6 @@ Tree
 
 Heap
 ----------------------------------------------------------
-- [ ] Merge K Sorted Lists
+- [x] Merge K Sorted Lists
 - [x] Top K Frequent Elements
 - [ ] Find Median from Data Stream
