@@ -108,3 +108,8 @@ Heap
 - [x] Merge K Sorted Lists
 - [x] Top K Frequent Elements
 - [ ] Find Median from Data Stream
+
+
+Other
+----------------------------------------------------------
+- [x] Minimum cost for ticket (DP)
