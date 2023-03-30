@@ -70,8 +70,8 @@ Linked List
 
 Matrix
 ----------------------------------------------------------
-- [ ] Set Matrix Zeroes
-- [ ] Spiral Matrix
+- [x] Set Matrix Zeroes
+- [x] Spiral Matrix
 - [x] Rotate Image
 - [x] Word Search
 
