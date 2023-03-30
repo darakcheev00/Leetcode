@@ -3,7 +3,7 @@
 Link to list:
 https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions
 
-(1/1 problems solved)
+(33/77 problems solved)
 
 Array
 ----------------------------------------------------------
