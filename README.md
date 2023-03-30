@@ -3,6 +3,8 @@
 Link to list:
 https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions
 
+(33/77 problems solved)
+
 Array
 ----------------------------------------------------------
 - [x] Two Sum
@@ -110,6 +112,6 @@ Heap
 - [ ] Find Median from Data Stream
 
 
-Other
+Other problems
 ----------------------------------------------------------
 - [x] Minimum cost for ticket (DP)
