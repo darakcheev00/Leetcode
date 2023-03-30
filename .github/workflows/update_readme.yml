@@ -27,4 +27,4 @@ jobs:
         git config --global user.name "Daniel Arakcheev"
         git add README.md
         git commit -m "Updated solution count in README.md"
-        git push origin master
+        git push origin main
