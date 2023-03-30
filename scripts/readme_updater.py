@@ -3,7 +3,7 @@
 
 solved = 0
 total = 0
-with open("../README.MD", 'r') as f:
+with open("README.md", 'r') as f:
     data = f.read()
     solved = data.count("[x]")
     total = data.count("[")
@@ -20,5 +20,5 @@ data = before + new_num + after
 
 print(data[:200])
 
-with open("../README.MD", 'w') as f:
+with open("README.md", 'w') as f:
     f.write(data)
