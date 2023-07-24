@@ -8,4 +8,7 @@ class Solution:
             if profit > maxProfit:
                 maxProfit = profit
         return maxProfit
-            
+
+
+
+[13,1,4,2,7,3,8,2]

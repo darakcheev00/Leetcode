@@ -90,9 +90,9 @@ String
 
 Tree
 ----------------------------------------------------------
-- [ ] Maximum Depth of Binary Tree
+- [x] Maximum Depth of Binary Tree
 - [ ] Same Tree
-- [ ] Invert/Flip Binary Tree
+- [x] Invert/Flip Binary Tree
 - [ ] Binary Tree Maximum Path Sum
 - [ ] Binary Tree Level Order Traversal
 - [ ] Serialize and Deserialize Binary Tree
