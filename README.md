@@ -77,21 +77,21 @@ Matrix
 
 String
 ----------------------------------------------------------
-- [ ] Longest Substring Without Repeating Characters
-- [ ] Longest Repeating Character Replacement
-- [ ] Minimum Window Substring
-- [ ] Valid Anagram
-- [ ] Group Anagrams
-- [ ] Valid Parentheses
-- [ ] Valid Palindrome
-- [ ] Longest Palindromic Substring
-- [ ] Palindromic Substrings
+- [x] Longest Substring Without Repeating Characters
+- [x] Longest Repeating Character Replacement
+- [x] Minimum Window Substring
+- [x] Valid Anagram
+- [x] Group Anagrams
+- [x] Valid Parentheses
+- [x] Valid Palindrome
+- [x] Longest Palindromic Substring
+- [x] Palindromic Substrings
 - [ ] Encode and Decode Strings (Leetcode Premium)
 
 Tree
 ----------------------------------------------------------
 - [x] Maximum Depth of Binary Tree
-- [ ] Same Tree
+- [x] Same Tree
 - [x] Invert/Flip Binary Tree
 - [ ] Binary Tree Maximum Path Sum
 - [ ] Binary Tree Level Order Traversal
